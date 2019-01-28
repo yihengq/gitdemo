@@ -2,7 +2,7 @@ import utils
 @utils.benchmark
 
 def say_hi():
-    print('hello')
+    print('hello exvivo')
 
 @utils.benchmark
 def say_bye():
