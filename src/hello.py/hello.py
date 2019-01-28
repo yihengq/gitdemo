@@ -4,5 +4,11 @@ import utils
 def say_hi():
     print('hello')
 
+@utils.benchmark
+def say_bye():
+    print('bye')
+
+
 if __name__ == '__main__':
     say_hi()
+    say_bye()
